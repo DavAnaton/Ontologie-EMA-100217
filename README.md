@@ -13,10 +13,8 @@ For now, you can:
 
 ### Installation
 
-TV-show Seeker is running using Java.</br>  
-</br>  
-Some preprocessing might be needed to change the Database. You need to do this with [Node.js](https://nodejs.org/).</br>  
-</br>  
+TV-show Seeker is running using Java.</br>
+Some preprocessing might be needed to change the Database. You need to do this with [Node.js](https://nodejs.org/).</br>
 To see the default query, just run the project and admire the result:
 
 ```sh
@@ -53,8 +51,8 @@ String query = queryParams.search();
 ```
 
 #### Change the database
-In order to use a fully functional database, you have to edit ```/Series/ressources/data.csv``` . Once this is done, you have to export this csv into a ```datav1.nt```. </br>  
-To do that, use the Node script in the same folder. </br>  
+In order to use a fully functional database, you have to edit ```/Series/ressources/data.csv``` . Once this is done, you have to export this csv into a ```datav1.nt```. </br>
+To do that, use the Node script in the same folder. </br>
 Just run
 ```sh
 $ npm install
@@ -63,7 +61,7 @@ $ node index.js
 And now, **You're ready to go!!**
 ### Development
 
-Want to contribute?</br>  
+Want to contribute?</br>
 We still have much to do. Here's a small list:
 #### Todos
 
@@ -72,20 +70,20 @@ We still have much to do. Here's a small list:
 
 #### Bugs
 
-1. Running the default query brings up **2 unwanted results**:</br>  
-*Query*: `SELECT ?Serie WHERE { ?Serie a <http://www.ema.com/ontologies/series#Serie> }`</br>  
-*Result*:</br>  
-**_:b0**</br>  
-**_:b1**</br>  
-</br>  
+1. Running the default query brings up **2 unwanted results**:</br>
+*Query*: `SELECT ?Serie WHERE { ?Serie a <http://www.ema.com/ontologies/series#Serie> }`</br>
+*Result*:</br>
+**_:b0**</br>
+**_:b1**</br>
+</br>
 2. Inferred results don't seem to be working at all. For example, those 2 queries should output the same result:</br>  
 
-*Query*: `SELECT ?Serie WHERE { ?Serie a <http://www.ema.com/ontologies/series#Serie> . ?Serie <http://www.ema.com/ontologies/series#isAiredOn> <http://www.ema.com/ontologies/series#Web> }`</br>  
-*Result*: **2 results, 2 expected**</br>  
-</br>  
-*Query*: `SELECT ?Serie WHERE { ?Serie a <http://www.ema.com/ontologies/series#Serie-Web> }`</br>  
-*Result*: **0 result, 2 expected**</br>  
-</br>  
-And this result set should not be empty:</br>  
-*Query*: `SELECT ?Serie WHERE { ?Serie a <http://www.ema.com/ontologies/series#Mini-Serie> }`</br>  
-*Result*: **0 result, 1 expected**</br>  
+*Query*: `SELECT ?Serie WHERE { ?Serie a <http://www.ema.com/ontologies/series#Serie> . ?Serie <http://www.ema.com/ontologies/series#isAiredOn> <http://www.ema.com/ontologies/series#Web> }`</br>
+*Result*: **2 results, 2 expected**</br>
+</br>
+*Query*: `SELECT ?Serie WHERE { ?Serie a <http://www.ema.com/ontologies/series#Serie-Web> }`</br>
+*Result*: **0 result, 2 expected**</br>
+</br>
+And this result set should not be empty:</br>
+*Query*: `SELECT ?Serie WHERE { ?Serie a <http://www.ema.com/ontologies/series#Mini-Serie> }`</br>
+*Result*: **0 result, 1 expected**</br>
