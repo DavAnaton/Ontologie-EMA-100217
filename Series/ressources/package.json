@@ -1,0 +1,16 @@
+{
+  "name": "csv2nt",
+  "version": "1.0.0",
+  "description": "Changes csv file into a data.nt file",
+  "main": "index.js",
+  "dependencies": {
+    "csv-parse": "^1.2.0",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David ANATON",
+  "license": "ISC"
+}

@@ -61,3 +61,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+.metadata/*
+.recommenders/*
+Series/htmls/node_modules/*
+Series/ressources/node_modules/*
+Jena/src-examples/*

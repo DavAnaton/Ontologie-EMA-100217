@@ -1,0 +1,12 @@
+Serie;hasNationality;isProducedBy;isAiredOn;hasActor;hasState;isRealizedBy;hasOriginalLanguage;isInspiredBy;hasDistinction;hasTheme;Data:dureeEpisode;Data:note;Data:anneeDebut;Data:nbVue;Data:nbSaison
+BreakingBad;USA;Producteur1;Web;;Terminee;Realisateur1;Anglais;;"Golden_Globe_2016;Golden_Globe_2015;Emmy_2016";"Policier;Action";50;8;2010;102;5
+Glee;USA;Producteur2;TV;;En_cours;Realisateur2;Anglais;;;Musicale;50;6;2011;101;5
+Kaamelott;France;Producteur3;TV;;Terminee;Realisateur3;Français;legend#RoiArthur;;Comedie;10;6;2012;50;5
+Narcos;USA;Producteur4;TV;;En_cours;Realisateur4;Anglais;;"Golden_Globe_2016;Golden_Globe_2015;Emmy_2016";"Policier;Action";25;9;2013;102;5
+NewGirl;USA;Producteur5;Web;;En_cours;Realisateur5;Anglais;;;Comedie;25;6;2014;70;5
+Pokemon;Japon;Producteur6;TV;;Terminee;Realisateur6;Japonais;;;Fantastique;20;5;1990;70;5
+Suits;USA;Producteur4;TV;;En_cours;Realisateur7;Anglais;;;"Policier;Comedie";45;7;2014;101;5
+Stargate;USA;Producteur8;TV;;Terminee;Realisateur8;Anglais;;;Science-Fiction;40;6;1990;50;5
+Sherlock;Grande-Bretagne;Producteur9;TV;;Terminee;Realisateur9;Anglais;;"Golden_Globe_2016;Golden_Globe_2015;Emmy_2016";Policier;70;9;2012;105;5
+Earl;USA;Producteur10;TV;;Stoppee;Realisateur10;Anglais;livre#Sherlock;;Comedie;40;7;2010;50;5
+Pride-Prejudice;Grande-Bretagne;Producteur11;TV;;Terminee;Realisateur11;Anglais;livre#PridePrejudice;;Romance;70;6;2010;50;1
