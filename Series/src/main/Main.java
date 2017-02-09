@@ -22,11 +22,11 @@ public class Main {
 		// Select Categorie
 		Search queryParams = new Search("Serie");
 		// Add as many params as you want
-		queryParams.addActor("JamesFranco");
-		queryParams.addNationality("Grande-Bretagne");
-		queryParams.addProducer("Producteur9");
-		queryParams.setAnneeDebut("2012");
-		queryParams.setIsAiredOn("Web");
+//		queryParams.addActor("JamesFranco");
+//		queryParams.addNationality("Grande-Bretagne");
+//		queryParams.addProducer("Producteur9");
+//		queryParams.setAnneeDebut("2012");
+//		queryParams.setIsAiredOn("Web");
 		
 		// Generate Query
 		String query = queryParams.search();
@@ -35,7 +35,7 @@ public class Main {
 		Reasoner reasoner = ReasonerRegistry.getOWLReasoner();
 		InfModel inf = ModelFactory.createInfModel(reasoner, model);
 
-//		query = "SELECT ?Serie ?x WHERE { ?Serie <http://www.ema.com/ontologies/series#nbSaison> ?x }";
+//		query = "SELECT ?Serie ?x WHERE { ?Serie <http://www.ema.com/ontologies/series#nbSaisons> ?x }";
 		Functions.performSPARQLQuery(inf, query);
 	}
 

@@ -15,7 +15,7 @@
 <http://www.ema.com/ontologies/series#BreakingBad> <http://www.ema.com/ontologies/series#note> "8"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#BreakingBad> <http://www.ema.com/ontologies/series#anneeDebut> "2010"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#BreakingBad> <http://www.ema.com/ontologies/series#nbVue> "102"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
-<http://www.ema.com/ontologies/series#BreakingBad> <http://www.ema.com/ontologies/series#nbSaison> "5"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
+<http://www.ema.com/ontologies/series#BreakingBad> <http://www.ema.com/ontologies/series#nbSaisons> "5"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Glee> <http://www.ema.com/ontologies/series#hasNationality> <http://www.ema.com/ontologies/series#USA> .
 <http://www.ema.com/ontologies/series#Glee> <http://www.ema.com/ontologies/series#isProducedBy> <http://www.ema.com/ontologies/series#Producteur2> .
 <http://www.ema.com/ontologies/series#Glee> <http://www.ema.com/ontologies/series#isAiredOn> <http://www.ema.com/ontologies/series#TV> .
@@ -30,7 +30,7 @@
 <http://www.ema.com/ontologies/series#Glee> <http://www.ema.com/ontologies/series#note> "6"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Glee> <http://www.ema.com/ontologies/series#anneeDebut> "2011"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Glee> <http://www.ema.com/ontologies/series#nbVue> "101"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
-<http://www.ema.com/ontologies/series#Glee> <http://www.ema.com/ontologies/series#nbSaison> "5"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
+<http://www.ema.com/ontologies/series#Glee> <http://www.ema.com/ontologies/series#nbSaisons> "5"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Kaamelott> <http://www.ema.com/ontologies/series#hasNationality> <http://www.ema.com/ontologies/series#France> .
 <http://www.ema.com/ontologies/series#Kaamelott> <http://www.ema.com/ontologies/series#isProducedBy> <http://www.ema.com/ontologies/series#Producteur3> .
 <http://www.ema.com/ontologies/series#Kaamelott> <http://www.ema.com/ontologies/series#isAiredOn> <http://www.ema.com/ontologies/series#TV> .
@@ -45,7 +45,7 @@
 <http://www.ema.com/ontologies/series#Kaamelott> <http://www.ema.com/ontologies/series#note> "6"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Kaamelott> <http://www.ema.com/ontologies/series#anneeDebut> "2012"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Kaamelott> <http://www.ema.com/ontologies/series#nbVue> "50"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
-<http://www.ema.com/ontologies/series#Kaamelott> <http://www.ema.com/ontologies/series#nbSaison> "5"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
+<http://www.ema.com/ontologies/series#Kaamelott> <http://www.ema.com/ontologies/series#nbSaisons> "5"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Narcos> <http://www.ema.com/ontologies/series#hasNationality> <http://www.ema.com/ontologies/series#USA> .
 <http://www.ema.com/ontologies/series#Narcos> <http://www.ema.com/ontologies/series#isProducedBy> <http://www.ema.com/ontologies/series#Producteur4> .
 <http://www.ema.com/ontologies/series#Narcos> <http://www.ema.com/ontologies/series#isAiredOn> <http://www.ema.com/ontologies/series#TV> .
@@ -63,7 +63,7 @@
 <http://www.ema.com/ontologies/series#Narcos> <http://www.ema.com/ontologies/series#note> "9"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Narcos> <http://www.ema.com/ontologies/series#anneeDebut> "2013"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Narcos> <http://www.ema.com/ontologies/series#nbVue> "102"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
-<http://www.ema.com/ontologies/series#Narcos> <http://www.ema.com/ontologies/series#nbSaison> "5"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
+<http://www.ema.com/ontologies/series#Narcos> <http://www.ema.com/ontologies/series#nbSaisons> "5"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#NewGirl> <http://www.ema.com/ontologies/series#hasNationality> <http://www.ema.com/ontologies/series#USA> .
 <http://www.ema.com/ontologies/series#NewGirl> <http://www.ema.com/ontologies/series#isProducedBy> <http://www.ema.com/ontologies/series#Producteur5> .
 <http://www.ema.com/ontologies/series#NewGirl> <http://www.ema.com/ontologies/series#isAiredOn> <http://www.ema.com/ontologies/series#Web> .
@@ -78,7 +78,7 @@
 <http://www.ema.com/ontologies/series#NewGirl> <http://www.ema.com/ontologies/series#note> "6"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#NewGirl> <http://www.ema.com/ontologies/series#anneeDebut> "2014"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#NewGirl> <http://www.ema.com/ontologies/series#nbVue> "70"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
-<http://www.ema.com/ontologies/series#NewGirl> <http://www.ema.com/ontologies/series#nbSaison> "5"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
+<http://www.ema.com/ontologies/series#NewGirl> <http://www.ema.com/ontologies/series#nbSaisons> "5"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Pokemon> <http://www.ema.com/ontologies/series#hasNationality> <http://www.ema.com/ontologies/series#Japon> .
 <http://www.ema.com/ontologies/series#Pokemon> <http://www.ema.com/ontologies/series#isProducedBy> <http://www.ema.com/ontologies/series#Producteur6> .
 <http://www.ema.com/ontologies/series#Pokemon> <http://www.ema.com/ontologies/series#isAiredOn> <http://www.ema.com/ontologies/series#TV> .
@@ -93,7 +93,7 @@
 <http://www.ema.com/ontologies/series#Pokemon> <http://www.ema.com/ontologies/series#note> "5"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Pokemon> <http://www.ema.com/ontologies/series#anneeDebut> "1990"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Pokemon> <http://www.ema.com/ontologies/series#nbVue> "70"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
-<http://www.ema.com/ontologies/series#Pokemon> <http://www.ema.com/ontologies/series#nbSaison> "5"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
+<http://www.ema.com/ontologies/series#Pokemon> <http://www.ema.com/ontologies/series#nbSaisons> "5"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Suits> <http://www.ema.com/ontologies/series#hasNationality> <http://www.ema.com/ontologies/series#USA> .
 <http://www.ema.com/ontologies/series#Suits> <http://www.ema.com/ontologies/series#isProducedBy> <http://www.ema.com/ontologies/series#Producteur4> .
 <http://www.ema.com/ontologies/series#Suits> <http://www.ema.com/ontologies/series#isAiredOn> <http://www.ema.com/ontologies/series#TV> .
@@ -109,7 +109,7 @@
 <http://www.ema.com/ontologies/series#Suits> <http://www.ema.com/ontologies/series#note> "7"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Suits> <http://www.ema.com/ontologies/series#anneeDebut> "2014"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Suits> <http://www.ema.com/ontologies/series#nbVue> "101"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
-<http://www.ema.com/ontologies/series#Suits> <http://www.ema.com/ontologies/series#nbSaison> "5"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
+<http://www.ema.com/ontologies/series#Suits> <http://www.ema.com/ontologies/series#nbSaisons> "5"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Stargate> <http://www.ema.com/ontologies/series#hasNationality> <http://www.ema.com/ontologies/series#USA> .
 <http://www.ema.com/ontologies/series#Stargate> <http://www.ema.com/ontologies/series#isProducedBy> <http://www.ema.com/ontologies/series#Producteur8> .
 <http://www.ema.com/ontologies/series#Stargate> <http://www.ema.com/ontologies/series#isAiredOn> <http://www.ema.com/ontologies/series#TV> .
@@ -124,7 +124,7 @@
 <http://www.ema.com/ontologies/series#Stargate> <http://www.ema.com/ontologies/series#note> "6"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Stargate> <http://www.ema.com/ontologies/series#anneeDebut> "1990"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Stargate> <http://www.ema.com/ontologies/series#nbVue> "50"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
-<http://www.ema.com/ontologies/series#Stargate> <http://www.ema.com/ontologies/series#nbSaison> "5"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
+<http://www.ema.com/ontologies/series#Stargate> <http://www.ema.com/ontologies/series#nbSaisons> "5"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Sherlock> <http://www.ema.com/ontologies/series#hasNationality> <http://www.ema.com/ontologies/series#Grande-Bretagne> .
 <http://www.ema.com/ontologies/series#Sherlock> <http://www.ema.com/ontologies/series#isProducedBy> <http://www.ema.com/ontologies/series#Producteur9> .
 <http://www.ema.com/ontologies/series#Sherlock> <http://www.ema.com/ontologies/series#isAiredOn> <http://www.ema.com/ontologies/series#TV> .
@@ -141,7 +141,7 @@
 <http://www.ema.com/ontologies/series#Sherlock> <http://www.ema.com/ontologies/series#note> "9"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Sherlock> <http://www.ema.com/ontologies/series#anneeDebut> "2012"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Sherlock> <http://www.ema.com/ontologies/series#nbVue> "105"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
-<http://www.ema.com/ontologies/series#Sherlock> <http://www.ema.com/ontologies/series#nbSaison> "5"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
+<http://www.ema.com/ontologies/series#Sherlock> <http://www.ema.com/ontologies/series#nbSaisons> "5"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Earl> <http://www.ema.com/ontologies/series#hasNationality> <http://www.ema.com/ontologies/series#USA> .
 <http://www.ema.com/ontologies/series#Earl> <http://www.ema.com/ontologies/series#isProducedBy> <http://www.ema.com/ontologies/series#Producteur10> .
 <http://www.ema.com/ontologies/series#Earl> <http://www.ema.com/ontologies/series#isAiredOn> <http://www.ema.com/ontologies/series#TV> .
@@ -156,7 +156,7 @@
 <http://www.ema.com/ontologies/series#Earl> <http://www.ema.com/ontologies/series#note> "7"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Earl> <http://www.ema.com/ontologies/series#anneeDebut> "2010"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Earl> <http://www.ema.com/ontologies/series#nbVue> "50"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
-<http://www.ema.com/ontologies/series#Earl> <http://www.ema.com/ontologies/series#nbSaison> "5"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
+<http://www.ema.com/ontologies/series#Earl> <http://www.ema.com/ontologies/series#nbSaisons> "5"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Pride-Prejudice> <http://www.ema.com/ontologies/series#hasNationality> <http://www.ema.com/ontologies/series#Grande-Bretagne> .
 <http://www.ema.com/ontologies/series#Pride-Prejudice> <http://www.ema.com/ontologies/series#isProducedBy> <http://www.ema.com/ontologies/series#Producteur11> .
 <http://www.ema.com/ontologies/series#Pride-Prejudice> <http://www.ema.com/ontologies/series#isAiredOn> <http://www.ema.com/ontologies/series#TV> .
@@ -171,4 +171,4 @@
 <http://www.ema.com/ontologies/series#Pride-Prejudice> <http://www.ema.com/ontologies/series#note> "6"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Pride-Prejudice> <http://www.ema.com/ontologies/series#anneeDebut> "2010"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
 <http://www.ema.com/ontologies/series#Pride-Prejudice> <http://www.ema.com/ontologies/series#nbVue> "50"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
-<http://www.ema.com/ontologies/series#Pride-Prejudice> <http://www.ema.com/ontologies/series#nbSaison> "1"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer
+<http://www.ema.com/ontologies/series#Pride-Prejudice> <http://www.ema.com/ontologies/series#nbSaisons> "1"^^<http://www.w3.org/2001/XMLSchema#integer> . # xsd:integer

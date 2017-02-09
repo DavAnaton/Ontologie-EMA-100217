@@ -20,7 +20,7 @@ index[11] ="dureeEpisode";
 index[12] ="note";
 index[13] ="anneeDebut";
 index[14] ="nbVue";
-index[15] ="nbSaison";
+index[15] ="nbSaisons";
 
 fs.readFile('data.csv', 'utf8', function(err, file){
 	parse(file, {delimiter: ';'}, function(err, data){

@@ -457,16 +457,7 @@
                     <rdf:Description rdf:about="http://www.ema.com/ontologies/series#Serie"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.ema.com/ontologies/series#nbSaisons"/>
-                        <owl:someValuesFrom>
-                            <rdfs:Datatype>
-                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-                                <owl:withRestrictions rdf:parseType="Collection">
-                                    <rdf:Description>
-                                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</xsd:maxInclusive>
-                                    </rdf:Description>
-                                </owl:withRestrictions>
-                            </rdfs:Datatype>
-                        </owl:someValuesFrom>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:hasValue>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -663,6 +654,28 @@
         <rdfs:subClassOf rdf:resource="http://www.ema.com/ontologies/series#Personne"/>
     </owl:Class>
     
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ema.com/ontologies/series#TV -->
+
+    <owl:NamedIndividual rdf:about="http://www.ema.com/ontologies/series#TV"/>
+    
+
+
+    <!-- http://www.ema.com/ontologies/series#Web -->
+
+    <owl:NamedIndividual rdf:about="http://www.ema.com/ontologies/series#Web"/>
 </rdf:RDF>
 
 

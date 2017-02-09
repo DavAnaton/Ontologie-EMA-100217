@@ -76,14 +76,3 @@ We still have much to do. Here's a small list:
 **_:b0**</br>
 **_:b1**</br>
 </br>
-2. Inferred results don't seem to be working at all. For example, those 2 queries should output the same result:</br>  
-
-*Query*: `SELECT ?Serie WHERE { ?Serie a <http://www.ema.com/ontologies/series#Serie> . ?Serie <http://www.ema.com/ontologies/series#isAiredOn> <http://www.ema.com/ontologies/series#Web> }`</br>
-*Result*: **2 results, 2 expected**</br>
-</br>
-*Query*: `SELECT ?Serie WHERE { ?Serie a <http://www.ema.com/ontologies/series#Serie-Web> }`</br>
-*Result*: **0 result, 2 expected**</br>
-</br>
-And this result set should not be empty:</br>
-*Query*: `SELECT ?Serie WHERE { ?Serie a <http://www.ema.com/ontologies/series#Mini-Serie> }`</br>
-*Result*: **0 result, 1 expected**</br>
