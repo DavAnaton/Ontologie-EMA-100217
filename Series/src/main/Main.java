@@ -24,9 +24,9 @@ public class Main {
 		// Add as many params as you want
 //		queryParams.addActor("JamesFranco");
 //		queryParams.addNationality("Grande-Bretagne");
-//		queryParams.addProducer("Producteur9");
+		queryParams.addProducer("Producteur1");
 //		queryParams.setAnneeDebut("2012");
-//		queryParams.setIsAiredOn("Web");
+		queryParams.setIsAiredOn("Web");
 		
 		// Generate Query
 		String query = queryParams.search();

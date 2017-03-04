@@ -3,6 +3,7 @@ package main;
 import java.util.ArrayList;
 
 public class Search {
+	private String URI;
 	private String category;
 	
 	private ArrayList<String> actors;
@@ -16,6 +17,7 @@ public class Search {
 	private String isAiredOn;
 	private String realisator;
 	private String anneeDebut;
+	private String orderBy;
 	
 	public Search(){
 		this.category = "Serie";
@@ -35,81 +37,77 @@ public class Search {
 	public Search(String category){
 		this();
 		this.category = category;
+		this.URI = "http://www.ema.com/ontologies/series#";
 	}
 	
 	public String search() {
-		String query = "SELECT ?Serie WHERE { ?Serie a <http://www.ema.com/ontologies/series#" + this.category + "> ";
+		String query = "SELECT ?Serie WHERE { ?Serie a <" + URI +this.category + "> ";
 
 		// Actors
 		if (this.actors != null && this.actors.size() > 0) {
 			for (String actor : this.actors) {
-				query += ". ?Serie <http://www.ema.com/ontologies/series#hasActor> <http://www.ema.com/ontologies/series#"
-						+ actor + "> ";
+				query += ". ?Serie <" + URI + "hasActor> <" + URI + actor + "> ";
 			}
 		}
 
 		// Nationality
 		if (this.nationalities != null && this.nationalities.size() > 0) {
 			for (String nationality : this.nationalities) {
-				query += ". ?Serie <http://www.ema.com/ontologies/series#hasNationality> <http://www.ema.com/ontologies/series#"
-						+ nationality + "> ";
+				query += ". ?Serie <" + URI + "hasNationality> <" + URI + nationality + "> ";
 			}
 		}
 		
 		// Distinction
 		if (this.distinctions != null && this.distinctions.size() > 0) {
 			for (String distinction : this.distinctions) {
-				query += ". ?Serie <http://www.ema.com/ontologies/series#hasDistinction> <http://www.ema.com/ontologies/series#"
-						+ distinction + "> ";
+				query += ". ?Serie <" + URI + "hasDistinction> <" + URI + distinction + "> ";
 			}
 		}
 
 		// OriginalLanguage
 		if (this.originalLanguages != null && this.originalLanguages.size() > 0) {
 			for (String originalLanguage : this.originalLanguages) {
-				query += ". ?Serie <http://www.ema.com/ontologies/series#hasOriginalLanguage> <http://www.ema.com/ontologies/series#"
-						+ originalLanguage + "> ";
+				query += ". ?Serie <" + URI + "hasOriginalLanguage> <" + URI + originalLanguage + "> ";
 			}
 		}
 		
 		// Producer
 		if (this.producers != null && this.producers.size() > 0) {
 			for (String producer : this.producers) {
-				query += ". ?Serie <http://www.ema.com/ontologies/series#isProducedBy> <http://www.ema.com/ontologies/series#"
-						+ producer + "> ";
+				query += ". ?Serie <" + URI + "isProducedBy> <" + URI + producer + "> ";
 			}
 		}
 		
 		// Theme
 		if (this.themes != null && this.themes.size() > 0) {
 			for (String theme : this.themes) {
-				query += ". ?Serie <http://www.ema.com/ontologies/series#hasTheme> <http://www.ema.com/ontologies/series#"
-						+ theme + "> ";
+				query += ". ?Serie <" + URI + "hasTheme> <" + URI + theme + "> ";
 			}
 		}
 
 		// State
 		if (this.state != null) {
-				query += ". ?Serie <http://www.ema.com/ontologies/series#hasState> <http://www.ema.com/ontologies/series#"
-						+ state + "> ";
+				query += ". ?Serie <" + URI + "hasState> <" + URI + state + "> ";
 		}
 
 		// IsAiredOn
 		if (this.isAiredOn != null) {
-				query += ". ?Serie <http://www.ema.com/ontologies/series#isAiredOn> <http://www.ema.com/ontologies/series#"
-						+ isAiredOn + "> ";
+				query += ". ?Serie <" + URI + "isAiredOn> <" + URI + isAiredOn + "> ";
 		}
 
 		// Realisator
 		if (this.realisator != null) {
-				query += ". ?Serie <http://www.ema.com/ontologies/series#hasRealisator> <http://www.ema.com/ontologies/series#"
-						+ realisator + "> ";
+				query += ". ?Serie <" + URI + "hasRealisator> <" + URI + realisator + "> ";
 		}
 
 		// AnneeDebut
 		if (this.anneeDebut != null) {
-				query += ". ?Serie <http://www.ema.com/ontologies/series#anneeDebut> ?x . FILTER(?x >= "+
-				this.anneeDebut + ")";
+				query += ". ?Serie <" + URI + "anneeDebut> ?x . FILTER(?x >= " +this.anneeDebut + ")";
+		}
+		
+		// Order By
+		if (this.orderBy != null) {
+				query += "";
 		}
 				
 		query += "}";
@@ -173,6 +171,9 @@ public class Search {
 	
 	public void setAnneeDebut(String a){
 		this.anneeDebut = a;
+	}
+	public void orderBy(String a){
+		this.orderBy = a;
 	}
 
 }
